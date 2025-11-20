@@ -1,0 +1,213 @@
+# ============================================================================
+# .gitignore para Old Market - Sistema de Controle de Estoque
+# ============================================================================
+
+# ====================
+# Build Artifacts
+# ====================
+
+# Arquivos objeto
+*.o
+*.obj
+*.elf
+
+# Arquivos de linkagem
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executáveis
+*.exe
+*.out
+*.app
+mercado
+mercado.exe
+
+# Diretório de build completo
+build/
+build/obj/
+build/bin/
+bin/
+obj/
+
+# Arquivos de dependência do compilador
+*.d
+*.dep
+
+# ====================
+# IDE e Editores
+# ====================
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ====================
+# Sistema Operacional
+# ====================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# ====================
+# Dados e Logs
+# ====================
+
+# Arquivos de dados (manter .gitkeep)
+data/*.dat
+data/*.bin
+data/*.bak
+!data/.gitkeep
+
+# Logs do sistema
+logs/*.log
+logs/*.txt
+!logs/.gitkeep
+
+# Relatórios gerados
+relatorios/*.csv
+relatorios/*.pdf
+relatorios/*.txt
+!relatorios/.gitkeep
+
+# ====================
+# Backup e Temporários
+# ====================
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Core dumps
+core
+core.*
+*.core
+
+# ====================
+# Documentação Gerada
+# ====================
+
+# Doxygen
+html/
+latex/
+docs/doxygen/
+
+# Man pages geradas
+docs/man/
+
+# ====================
+# Testes
+# ====================
+
+# Arquivos de teste temporários
+tests/temp/
+tests/output/
+tests/*.result
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# ====================
+# Compressão e Arquivos
+# ====================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ====================
+# Específico do Projeto
+# ====================
+
+# Arquivo de configuração local
+config.local.h
+settings.local.ini
+
+# Chaves e credenciais (NUNCA commitar!)
+*.key
+*.pem
+*.crt
+credentials.txt
+.env
+
+# ====================
+# Git Auxiliar
+# ====================
+
+# Patch files
+*.patch
+*.diff
+
+# ====================
+# Manter Diretórios Vazios
+# ====================
+
+# Força Git a rastrear diretórios vazios necessários
+!.gitkeep
+!**/.gitkeep

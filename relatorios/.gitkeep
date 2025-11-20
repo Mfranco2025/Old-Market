@@ -1,0 +1,2 @@
+# Este arquivo força o Git a rastrear o diretório relatorios/
+# Os relatórios gerados serão ignorados mas o diretório permanece
