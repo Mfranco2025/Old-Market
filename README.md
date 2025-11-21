@@ -71,13 +71,12 @@ Simplificamos o processo de build com scripts prontos:
 **No Linux:**
 
 ````bash
-1º transforme o arquivo build_mercado.bat em um script shell build_mercado.sh com o seguinte conteúdo:
-```bash
+# 1º Transforme o script em executável e execute:
 chmod +x build_mercado.sh
-´´´
-2º rode o script:
-```bash
 ./build_mercado.sh
+
+# Para executar:
+./build/bin/mercado
 ````
 
 ---
