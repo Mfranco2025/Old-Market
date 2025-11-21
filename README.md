@@ -50,7 +50,7 @@ Você precisa apenas de um compilador C (GCC é o recomendado).
 ### 1. Clone e Entre
 
 ```bash
-git clone [https://github.com/Mfranco2025/Old-Market](https://github.com/Mfranco2025/Old-Market)
+git clone https://github.com/Mfranco2025/Old-Market
 cd old_market
 ```
 
