@@ -49,10 +49,9 @@ Você precisa apenas de um compilador C (GCC é o recomendado).
 
 ### 1. Clone e Entre
 
-```bash
+````bash
 git clone https://github.com/Mfranco2025/Old-Market
 cd old_market
-```
 
 ### 2\. Compile e Execute
 
@@ -66,18 +65,18 @@ Simplificamos o processo de build com scripts prontos:
 
 # Para executar:
 .\build\bin\mercado.exe
-```
+````
 
 **No Linux:**
 
-````bash
+```bash
 # 1º Transforme o script em executável e execute:
 chmod +x build_mercado.sh
 ./build_mercado.sh
 
 # Para executar:
 ./build/bin/mercado
-````
+```
 
 ---
 
