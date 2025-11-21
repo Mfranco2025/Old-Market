@@ -1,0 +1,2 @@
+# Este arquivo força o Git a rastrear o diretório data/
+# Os arquivos .dat serão ignorados mas o diretório permanece
